@@ -10,6 +10,7 @@ sleep 1
 green='\033[0;32m'
 # Clear the color after that
 clear='\033[0m'
+echo "enter ip adress"
 echo -e "${green}ipadress?: "
 read ipadress
 echo "starting listener in 3..."
