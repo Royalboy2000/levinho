@@ -23,7 +23,10 @@ typingPrint("2..\n")
 time.sleep(1)
 typingPrint("1...\n")
 import socket
+clear = 'clear'
+os.system(clear)
 cmd = 'bash lzzy.sh'
 os.system(cmd)
+
 
 
