@@ -1,4 +1,4 @@
-from tkinter import N
+
 import pyfiglet
 from pyfiglet import figlet_format 
 import sys,time,os
